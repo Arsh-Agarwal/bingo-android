@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bt_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="Multiplayer mode requires Bluetooth to work. Please enable bluetooth via the button given below"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:text="Enable"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/btnEnableBT"
+        android:background="@drawable/yellow_letter_background"
+        android:padding="10dp"/>
+
+</LinearLayout>
